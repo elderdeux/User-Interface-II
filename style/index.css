@@ -1,1 +1,416 @@
-/* Add CSS styling here */
+
+html {
+    box-sizing: border-box;
+    
+}
+
+
+ body {
+    font-family: 'Eczar', serif;
+    font-size: 62.5%;
+    background: #fff5d7
+  }
+
+  .go {
+    background: #ff5e6c;
+    padding: 5px 20px;
+    display: inline-block;
+    border: 3px solid black;
+    margin-left: -8px;
+    text-align: center;
+  }
+.navigation {
+    margin: 0 0 50px 70px;
+    
+}
+div{
+    font-size: 1.8rem;
+}
+
+
+h1, h2{
+    font-size: 4rem;
+}
+
+
+ .contain {
+    border-radius: 10%;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+  .container1, .container2 {
+    display:flex;
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .container1 {
+      padding: 30px;
+  }
+  .container1 img {
+      width:100%;
+  }
+
+
+
+  .main-content {
+      background-color: white;
+  }
+
+  .hero {
+      display: flex;
+      flex-direction: row;
+      padding: 1%;
+  }
+
+.content-container {
+    width:90%;
+    height: 300px;
+    padding: 25px;
+    margin: 150px 5% 0 5%;
+}
+.button {
+    padding: 8px 20px;
+    background-color: #243242;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #d3d3d3
+
+
+}
+.container3, .container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.container3 p, .container4 p{
+    text-align: center;
+}
+
+.item {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+.item img {
+    width:100%;
+
+    
+}
+
+footer {
+    text-align: center;
+    height: 400px;
+    margin: 200px 0 0 0;
+    font-size: 1.8rem;
+}
+
+
+.social {
+    margin-top: 3%;
+    
+}
+.social a{
+    padding: 20px;
+}
+
+.button2 {
+    padding: 8px 20px;
+    background-color: #243242;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #d3d3d3
+    
+}
+
+.see {
+    margin-bottom:2%;
+}
+
+
+@media(max-width: 800px){
+    html {
+        box-sizing: border-box;
+        
+    }
+    
+    
+     body {
+        font-family: 'Eczar', serif;
+        font-size: 62.5%;
+        background: #fff5d7
+      }
+    
+      .go {
+        background: #ff5e6c;
+        padding: 5px 20px;
+        display: inline-block;
+        border: 3px solid black;
+        margin-left: -8px;
+        text-align: center;
+      }
+    .navigation {
+        margin: 0 0 50px 70px;
+        
+    }
+    div{
+        font-size: 1.5rem;
+    }
+    
+    
+    h1, h2{
+        font-size: 2rem;
+    }
+    
+    
+     .contain {
+        border-radius: 10%;
+     }
+    
+     a {
+         text-decoration: none;
+         color: black;
+     }
+    
+      .container1, .container2 {
+        display:flex;
+        flex: 1;
+        justify-content: flex-start;
+        max-height: auto;
+        max-width: auto;
+        
+      }
+    
+      .container1 {
+          padding: 10px;
+      }
+      .container1 img {
+          max-width: auto;
+          height: auto;
+      }
+    
+    
+    
+      .main-content {
+          background-color: white;
+      }
+    
+      .hero {
+          display: flex;
+          flex-direction: row;
+          padding: 1%;
+      }
+    
+    .content-container {
+        width:90%;
+        height: 300px;
+        padding: 25px;
+        margin: 150px 5% 0 5%;
+    }
+    .button {
+        padding: 8px 20px;
+        background-color: #243242;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 5px #d3d3d3
+    
+    
+    }
+    .container3, .container4 {
+        display: flex;
+        flex-wrap: wrap;
+        flex: auto;
+        flex-direction: row;
+        
+    }
+    
+    .container3 p, .container4 p{
+        text-align: center;
+    }
+    
+    .item img {
+        width:100%;
+    
+        
+    }
+    
+    footer {
+        text-align: center;
+        height: 400px;
+        margin: 200px 0 0 0;
+        font-size: 1.8rem;
+    }
+    
+    
+    .social {
+        margin-top: 3%;
+        
+    }
+    .social a{
+        padding: 20px;
+    }
+    
+    .button2 {
+        padding: 8px 20px;
+        background-color: #243242;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 5px #d3d3d3
+        
+    }
+    
+    .see {
+        margin-bottom:2%;
+    }
+}
+
+@media(max-width: 500px){
+    html {
+        box-sizing: border-box;
+        
+    }
+    
+    
+     body {
+        font-family: 'Eczar', serif;
+        font-size: 62.5%;
+        background: #fff5d7;
+        background-size: cover;
+
+        
+      }
+    
+      .go {
+        background: #ff5e6c;
+        border: 3px solid black;
+        margin-left: -8px;
+        text-align: center;
+        display: flex;
+        
+      }
+    .navigation {
+        margin: 0 0 50px 10px;
+        max-width: 18%;
+        text-align: center;
+        
+    }
+    div{
+        font-size: 1rem;
+    }
+    
+    
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    
+    
+     .contain {
+        border-radius: 10%;
+     }
+    
+     a {
+         text-decoration: none;
+         color: black;
+     }
+    
+      .container1, .container2 {
+        display:flex;
+        justify-content: flex-start;
+        max-height: auto;
+        max-width: 100%;
+        
+      }
+    
+      .container1 {
+          padding: 10px;
+      }
+      .container1 img {
+          margin-top: 20%;
+          max-width: 100%;
+          height: 60%;
+      }
+    
+    
+    
+      .main-content {
+          background-color: white;
+      }
+    
+      .hero {
+          display: flex;
+          flex-direction: row;
+          padding: 1%;
+      }
+    
+    .content-container {
+        width:90%;
+        height: 300px;
+        padding: 25px;
+        margin: 150px 5% 0 5%;
+    }
+    .button {
+        padding: 8px 20px;
+        background-color: #243242;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 5px #d3d3d3
+    
+    
+    }
+    .container3, .container4 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .container3 p, .container4 p{
+        text-align: center;
+
+    }
+    
+    
+    
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 img {
+       max-width:100%
+    
+        
+    }
+    
+    footer {
+        text-align: center;
+        height: 400px;
+        margin: 200px 0 0 0;
+        font-size: 1.8rem;
+    }
+    
+    
+    .social {
+        margin-top: 3%;
+        
+    }
+    .social a{
+        padding: 20px;
+    }
+    
+    .button2 {
+        padding: 8px 20px;
+        background-color: #243242;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 5px #d3d3d3
+        
+    }
+    
+    .see {
+        margin-bottom:2%;
+    }
+}
