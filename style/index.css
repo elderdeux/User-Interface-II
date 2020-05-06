@@ -1,1 +1,94 @@
-/* Add CSS styling here */
+
+ body {
+    font-family: 'Eczar', serif;
+    font-size: 22px;
+    background: #fff5d7
+  }
+
+  .go {
+    background: #ff5e6c;
+    padding: 5px 20px;
+    display: inline-block;
+    border: 3px solid black;
+    margin-left: -8px;
+    text-align: center;
+  }
+.navigation {
+    margin: 0 0 50px 70px;
+    
+}
+
+
+
+ .contain {
+    border-radius: 10%;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+  .container1, .container2 {
+    display:flex;
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+  .container1 {
+      padding: 30px;
+  }
+  .container1 img {
+      width:100%;
+  }
+
+
+
+  .main-content {
+      background-color: white;
+  }
+
+  .hero {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+  }
+
+.content-container {
+    width:90%;
+    height: 300px;
+    padding: 25px;
+    margin: 150px 5% 0 5%;
+}
+.button {
+    padding: 8px 20px;
+    background-color: #243242;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px #d3d3d3
+
+}
+.container3, .container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.item {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+.item img {
+    width:100%;
+
+    
+}
+
+footer {
+    text-align: center;
+    height: 400px;
+    margin: 200px 0 0 0;
+}
